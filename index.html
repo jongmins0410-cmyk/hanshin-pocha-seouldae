@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>한신포차 서울대입구역점</title>
+  <meta name="description" content="한신포차 서울대입구역점 공식 안내 페이지. 대표 메뉴, 네이버 플레이스 리뷰/사진, 오시는길과 영업 정보를 한 번에 확인하세요." />
+  <meta property="og:title" content="한신포차 서울대입구역점" />
+  <meta property="og:description" content="서울대입구역에서 만나는 한신포차. 메뉴, 리뷰, 사진, 지도 안내." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="wrap">
+    <header class="site-header" aria-label="주요 메뉴">
+      <div class="header-inner">
+        <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <h1 class="logo">
+          <a href="#home" aria-label="한신포차 서울대입구역점 홈">
+            <img src="./assets/logo.png" alt="한신포차" />
+          </a>
+        </h1>
+        <nav class="main-nav" aria-label="페이지 섹션">
+          <a href="#menu">한신메뉴</a>
+          <a href="#place">서울대입구역점</a>
+          <a href="#review">리뷰사진</a>
+          <a href="#location">오시는길</a>
+          <a href="https://map.naver.com/p/entry/place/2093911920" target="_blank" rel="noopener">네이버 플레이스</a>
+        </nav>
+        <div class="delivery-dropdown">
+          <button class="header-action delivery-toggle" type="button" aria-label="배달앱 선택" aria-expanded="false" aria-controls="delivery-menu">배달</button>
+          <div class="delivery-menu" id="delivery-menu" hidden>
+            <a href="https://s.baemin.com/bY000Gyd7NSjM" target="_blank" rel="noopener">배민</a>
+            <a href="https://web.coupangeats.com/share?storeId=985169&dishId&key=6caf15cd-8ec4-4d6e-8349-51df36abbe87" target="_blank" rel="noopener">쿠팡이츠</a>
+            <a href="https://ws.yogiyo.co.kr/apkkhz5" target="_blank" rel="noopener">요기요</a>
+          </div>
+        </div>
+      </div>
+      <nav class="mobile-nav" aria-label="모바일 메뉴">
+        <a href="#menu">한신메뉴</a>
+        <a href="#place">서울대입구역점</a>
+        <a href="#review">리뷰사진</a>
+        <a href="#location">오시는길</a>
+        <a href="https://map.naver.com/p/entry/place/2093911920" target="_blank" rel="noopener">네이버 플레이스</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="main-visual-wrap" aria-label="한신포차 서울대입구역점 소개">
+        <div class="hero-video-layer active" data-hero-slide="0">
+          <video src="./hero01.mp4" muted autoplay loop playsinline preload="metadata"></video>
+        </div>
+        <div class="hero-video-layer" data-hero-slide="1">
+          <video src="./hero02.mp4" muted autoplay loop playsinline preload="metadata"></video>
+        </div>
+        <div class="hero-shade"></div>
+        <div class="container hero-copy">
+          <div class="main-slg active" data-hero-copy="0">
+            <h2>서울대입구역의 밤,<br />한신포차로 모이다</h2>
+            <p>매운 국물 닭발의 원조 한신포차를 서울대입구역에서 만납니다. 퇴근길 한 잔, 친구들과의 늦은 밤, 따끈한 안주와 활기 있는 포차 분위기를 한 화면에서 바로 확인하세요.</p>
+          </div>
+          <div class="main-slg" data-hero-copy="1">
+            <h2>서울대입구역,<br />드디어 한신포차 상륙!</h2>
+            <p>인계동에서 10년 넘게 쌓아온 포차 감성 그대로. 닭발 러버들, 오늘 밤은 여기로 모이세요.</p>
+          </div>
+        </div>
+        <div class="hero-pagination" aria-label="히어로 영상 선택">
+          <button class="active" type="button" data-hero-dot="0" aria-label="첫 번째 영상"></button>
+          <button type="button" data-hero-dot="1" aria-label="두 번째 영상"></button>
+        </div>
+        <button class="hero-arrow hero-arrow-prev" type="button" data-hero-arrow="prev" aria-label="이전 히어로 영상">
+          <span aria-hidden="true"></span>
+        </button>
+        <button class="hero-arrow hero-arrow-next" type="button" data-hero-arrow="next" aria-label="다음 히어로 영상">
+          <span aria-hidden="true"></span>
+        </button>
+        <div class="hero-progress" aria-hidden="true"><span></span></div>
+        <div class="mouse-wrap" aria-hidden="true">
+          <div class="mouse">
+            <span class="mouse-icon"><span class="mouse-wheel"></span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-section row1" id="menu">
+        <div class="menu-visual">
+          <div class="container">
+            <div class="menu-copy-panel" role="button" tabindex="0" aria-label="선택한 메뉴 사진 보기">
+              <div class="menu-copy active" data-menu-copy="0">
+                <p class="menu-name">한신닭발</p>
+                <h2>중독성 강한 한신포차의 <br />대표메뉴!</h2>
+                <p>보글보글 끓여 먹는 매운 국물 닭발에 콩나물을 더해 아삭한 식감을 살린 한신포차 대표 메뉴입니다.</p>
+              </div>
+              <div class="menu-copy" data-menu-copy="1">
+                <p class="menu-name">한신무뼈닭발</p>
+                <h2>한신닭발을 <br />뼈없이 간편하게</h2>
+                <p>뼈를 발라내는 수고 없이 한신닭발의 매콤하고 쫄깃한 식감을 즐길 수 있는 메뉴입니다.</p>
+              </div>
+              <div class="menu-copy" data-menu-copy="2">
+                <p class="menu-name">치즈듬뿍계란말이</p>
+                <h2>입안 가득 느껴지는 <br />치즈의 고소한 풍미!</h2>
+                <p>부드러운 계란말이에 모짜렐라치즈와 체다치즈를 듬뿍 넣어 안주로도 식사로도 든든합니다.</p>
+              </div>
+              <div class="menu-copy" data-menu-copy="3">
+                <p class="menu-name">한신통닭</p>
+                <h2>통째로 튀겨 더욱 바삭하고 <br />촉촉한 한신통닭!</h2>
+                <p>겉은 바삭하고 속은 촉촉하게 튀겨 낸 한신포차표 통닭 메뉴입니다.</p>
+              </div>
+              <div class="menu-pagination" aria-label="대표 메뉴 선택">
+                <button class="active" type="button" data-menu-dot="0">01</button>
+                <button type="button" data-menu-dot="1">02</button>
+                <button type="button" data-menu-dot="2">03</button>
+                <button type="button" data-menu-dot="3">04</button>
+              </div>
+              <div class="menu-controls">
+                <button type="button" class="menu-prev" aria-label="이전 메뉴">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" /></svg>
+                </button>
+                <button type="button" class="menu-next" aria-label="다음 메뉴">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" /></svg>
+                </button>
+              </div>
+              <a class="menu-detail-link" href="https://hanshinpocha.com/menu/" target="_blank" rel="noopener">
+                메뉴설명보기
+                <svg viewBox="0 0 38 13" aria-hidden="true"><path d="M0 6.5h34M28 1l8 5.5-8 5.5" /></svg>
+              </a>
+            </div>
+          </div>
+          <a class="menu-image-stage" href="https://hanshinpocha.com/menu/" target="_blank" rel="noopener" aria-label="본사 메뉴 설명으로 이동">
+            <img class="active" src="./assets/main_menu1.jpg" alt="한신닭발" data-menu-image="0" />
+            <img src="./assets/menu_1267x720.jpg" alt="한신무뼈닭발" data-menu-image="1" />
+            <img src="./assets/menu3.jpg" alt="치즈듬뿍계란말이" data-menu-image="2" />
+            <img src="./assets/main_menu4.jpg" alt="한신통닭" data-menu-image="3" />
+          </a>
+        </div>
+      </section>
+
+      <section class="main-section row2" id="place">
+        <div class="container">
+          <div class="branch-intro">
+            <div class="branch-carousel" aria-label="한신포차 서울대입구역점 매장 사진">
+              <div class="branch-carousel-viewport">
+                <img class="branch-slide active" src="./assets/branch-exterior.png" alt="한신포차 서울대입구역점 외부 간판" data-branch-slide="0" />
+                <img class="branch-slide" src="./assets/branch-interior.png" alt="한신포차 서울대입구역점 내부 좌석" data-branch-slide="1" />
+              </div>
+              <div class="branch-carousel-controls" aria-label="매장 사진 선택">
+                <button class="active" type="button" data-branch-dot="0" aria-label="외부 사진 보기"></button>
+                <button type="button" data-branch-dot="1" aria-label="내부 사진 보기"></button>
+              </div>
+            </div>
+            <div class="branch-copy">
+              <h2>한신포차<br />서울대입구역점</h2>
+              <p>서울대입구역 2번 출구 근처, 빨간 간판과 따뜻한 실내 분위기가 바로 이어지는 지점입니다.</p>
+              <a class="branch-button" href="https://pcmap.place.naver.com/restaurant/2093911920/photo" target="_blank" rel="noopener">업체사진 더보기</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-links-section" aria-label="네이버 플레이스 바로가기">
+        <div class="container quick-links">
+          <a href="https://pcmap.place.naver.com/restaurant/2093911920/photo" target="_blank" rel="noopener">업체사진</a>
+          <a href="https://pcmap.place.naver.com/restaurant/2093911920/menu" target="_blank" rel="noopener">메뉴</a>
+          <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener">방문자 리뷰</a>
+          <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener">블로그 리뷰</a>
+          <a href="https://pcmap.place.naver.com/restaurant/2093911920/clip" target="_blank" rel="noopener">클립</a>
+        </div>
+      </section>
+
+      <section class="review-section" id="review">
+        <div class="container">
+          <div class="review-title">
+            <div class="review-heading-copy">
+              <p class="review-branch-label">서울대입구역점</p>
+              <h2>재방문률이 높은 이유!</h2>
+            </div>
+            <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener">네이버 리뷰 전체 보기</a>
+          </div>
+          <div class="review-marquee" aria-label="네이버 리뷰 사진 갤러리">
+            <div class="review-track">
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-01.jpg" alt="네이버 방문자 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-02.jpg" alt="네이버 방문자 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-03.jpg" alt="네이버 방문자 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-04.jpg" alt="네이버 방문자 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-05.jpg" alt="네이버 방문자 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-06.jpg" alt="네이버 방문자 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-07.jpg" alt="네이버 방문자 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-08.jpg" alt="네이버 방문자 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-09.jpg" alt="네이버 방문자 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-10.jpg" alt="네이버 방문자 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-11.jpg" alt="네이버 블로그 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-12.jpg" alt="네이버 블로그 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-13.jpg" alt="네이버 블로그 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-14.jpg" alt="네이버 블로그 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-15.jpg" alt="네이버 블로그 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-16.jpg" alt="네이버 블로그 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-17.jpg" alt="네이버 블로그 리뷰 사진" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-18.jpg" alt="네이버 블로그 리뷰 사진" /></a>
+            </div>
+            <div class="review-track duplicate" aria-hidden="true">
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-01.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-02.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-03.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-04.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-05.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-06.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-07.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-08.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-09.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/visitor" target="_blank" rel="noopener"><img src="./assets/review-10.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-11.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-12.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-13.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-14.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-15.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-16.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-17.jpg" alt="" /></a>
+              <a href="https://pcmap.place.naver.com/restaurant/2093911920/review/ugc" target="_blank" rel="noopener"><img src="./assets/review-18.jpg" alt="" /></a>
+            </div>
+          </div>
+          <div class="review-keywords">
+            <span>#음식이 맛있어요</span>
+            <span>#친절해요</span>
+            <span>#가성비가 좋아요</span>
+            <span>#매장이 청결해요</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-section row3" id="location">
+        <div class="location-split">
+          <div class="location-copy">
+            <div class="location-inner">
+              <h2>오시는길</h2>
+              <dl>
+                <div>
+                  <dt>주소</dt>
+                  <dd>서울 관악구 관악로16길 38, 2층</dd>
+                </div>
+                <div>
+                  <dt>전화</dt>
+                  <dd><a href="tel:0269511177">02-6951-1177</a></dd>
+                </div>
+                <div>
+                  <dt>영업</dt>
+                  <dd>월-금 17:00 - 익일 05:00<br />토-일 16:00 - 익일 05:00</dd>
+                </div>
+              </dl>
+              <div class="location-actions">
+                <a href="https://map.naver.com/p/entry/place/2093911920" target="_blank" rel="noopener">네이버 지도</a>
+                <a href="https://map.naver.com/p/directions/-/126.9547513,37.4797305,%ED%95%9C%EC%8B%A0%ED%8F%AC%EC%B0%A8%20%EC%84%9C%EC%9A%B8%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD%EC%A0%90,2093911920,PLACE_POI" target="_blank" rel="noopener">길찾기</a>
+                <button type="button" data-copy-address>주소 복사</button>
+              </div>
+            </div>
+          </div>
+          <a class="map-panel map-link-card" href="https://map.naver.com/p/entry/place/2093911920" target="_blank" rel="noopener" aria-label="네이버 지도에서 한신포차 서울대입구역점 보기">
+            <img src="./assets/naver-map-crop.png" alt="한신포차 서울대입구역점 네이버 지도" />
+            <div class="map-marker" aria-hidden="true">
+              <span class="pin"></span>
+              <strong>한신포차 서울대입구역점</strong>
+              <small>서울 관악구 관악로16길 38, 2층</small>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-logo">
+          <img src="./assets/flogo.jpg" alt="더본코리아" />
+        </div>
+        <div class="footer-copy">
+          <p>한신포차 서울대입구역점 <span>|</span> 서울 관악구 관악로16길 38, 2층 <span>|</span> 전화 02-6951-1177</p>
+          <p>브랜드 및 메뉴 정보는 한신포차 본사 홈페이지, 매장 사진과 리뷰는 네이버 플레이스 최신 화면으로 연결됩니다.</p>
+        </div>
+        <a class="footer-place" href="https://hanshinpocha.com/" target="_blank" rel="noopener">본사 홈페이지</a>
+      </div>
+    </footer>
+  </div>
+  <div class="menu-photo-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="메뉴 사진 크게 보기">
+    <button class="menu-photo-backdrop" type="button" data-menu-photo-close aria-label="닫기"></button>
+    <div class="menu-photo-dialog">
+      <button class="menu-photo-close" type="button" data-menu-photo-close aria-label="닫기">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
+      </button>
+      <img class="menu-photo-img" src="./assets/main_menu1.jpg" alt="한신닭발 메뉴 사진" />
+      <div class="menu-photo-caption">
+        <strong>한신닭발</strong>
+        <a href="https://hanshinpocha.com/menu/" target="_blank" rel="noopener">메뉴설명보기</a>
+      </div>
+    </div>
+  </div>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="./main.js"></script>
+</body>
+</html>
